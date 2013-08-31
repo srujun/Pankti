@@ -1,5 +1,8 @@
 package com.pankti.example.helloworld
 
 class HelloWorld
-	function void main(int args)
-		System.out.println("Hello, world!")
+	void main :: int args
+		myFunc "Hello, world!"
+
+	void myFunc :: string message
+		System.out.println message
