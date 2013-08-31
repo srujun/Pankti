@@ -1,0 +1,5 @@
+package com.pankti.example.helloworld
+
+class HelloWorld
+	function void main(int args)
+		System.out.println("Hello, world!")
