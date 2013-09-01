@@ -6,5 +6,5 @@ import Language.Pankti.AST
 main = do
   [path] <- getArgs
   putStrLn $ "Compiling " ++ path
-  ast <- parsePkt path
+  ast <- parsePktFile path
   putStrLn $ show ast
