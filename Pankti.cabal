@@ -13,12 +13,12 @@ maintainer:          srujun01@gmail.com
 -- copyright:           
 category:            Language
 build-type:          Simple
-cabal-version:       >=1.8
+cabal-version:       >= 1.6
 
 executable pankti
   main-is:           Language/Main.hs
   -- other-modules:       
   hs-source-dirs:    src
   build-depends:
-    base >= 4.6,
+    base,
     parsec >= 3.1
